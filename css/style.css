@@ -14,7 +14,7 @@ header img{width: 15%;position: absolute;top: 0;left: 0;}
 .p1, .flex{display: flex;justify-content: center;align-items: center;}
 
 .p1{background: url(/image/back-image.png);background-size:cover;background-position:center;
-    min-height:90vh;}
+    height:100vh;}
 .p1-box{flex-direction: column;color: #fff;width: 70%;}
 .p1-box h1{font-size: clamp( 3.5rem, 4vw, 4vh);font-weight: 700;width: 50%;
     display: block;margin: 0 auto; line-height: 1.1em;text-align: center;}
@@ -96,7 +96,7 @@ footer p a{color:#b7202e; text-decoration: none;}
     header{background: #0b1529;}
     header img{width: 60%;display: block;margin: 0 auto;position: relative;}
 
-    .p1{background-position: left;}
+    .p1{background-position: left;height: auto;}
     .p1-box{width: 90%;}
     .p1-box h1{font-size: 2rem;width: 100%;}
 
