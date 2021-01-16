@@ -111,10 +111,8 @@ footer p a{color:#b7202e; text-decoration: none;}
     header img{width: 40%;position: static;}
     header{background-color: #0b1529;}
    
-    header{position: static;display: flex;align-items: center;}
-   
-    nav{position: absolute;width: 100%;top: 0;left: 0;}
-   
+    header,nav{position: static;display: flex;align-items: center;}
+     
     nav{justify-content: center;}
     nav ul{max-height: 0px;background:#fff;color:  #0b1529;}
     nav ul li a{color:  #0b1529;width: 100%;}
