@@ -21,10 +21,11 @@ nav ul li a {color: #fff;text-decoration: none;line-height: 70px;font-size: clam
     nav ul li a:nth-child(1):hover{border-bottom: .0em solid #b7202e}
     .active{border-bottom: .1em solid #b7202e } 
 nav ul li a:hover, nav ul ul li a:hover, .p1 a:hover{color:  #b7202e}
-nav ul ul{position: absolute;top: 1em;opacity: 0;visibility: hidden;transition: top .3s ; }
+nav ul ul{position: absolute;top: 1em;opacity: 0;visibility: hidden;transition: top .3s ;
+    background-color: #0b1529 ;padding: 1em .5em;}
 nav ul li:hover > ul{top: 70px;opacity: 1;visibility:visible;}
 nav ul ul li{position: relative;margin: 0px;width: 10em;float: none;display: list-item;}
-nav ul ul li a{line-height: 40px;font-size: clamp( .8rem, 2vw + 1em, 2.8vh);}
+nav ul ul li a{line-height: 40px;font-size: clamp( .8rem, 2vw + 1em, 2.8vh);color:  #fff;}
 
 .a-b{background-color:  #b7202e;color: #fff;padding: .5em 1em;border-radius: 5em;}
 .a-b:hover{color: #fff;border: none;}
@@ -40,7 +41,7 @@ label #sign-one,  label #sign-two{font-size: .5em; background-color:#b7202e;
 
 .p1{background: url(/image/back-image.png);background-size:cover;background-position:center;
     height:100vh;}
-.p1-box{flex-direction: column;color: #fff;width: 70%;}
+.p1-box{flex-direction: column;color: #fff;width: 70%;padding: 3em 0 ;}
 .p1-item{margin: 1em;text-align: center;}
 .p1-box h1{font-size: clamp( 3rem,4.5vw + 1rem,5.5rem);font-weight: 700;width: 50%;
     display: block;margin: 0 auto; line-height: 1.1em;text-align: center;}
