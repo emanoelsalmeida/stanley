@@ -133,14 +133,19 @@ footer p a{color:#b7202e; text-decoration: none;}
    
     header img{width: 20%;position: static;z-index: 0;margin: .5em 0 0 ;}
 
-    nav ul{float: left;margin-right: 0px;width: 100%;margin: 3em 0 0;transition: 1s;animation: bottom .4s ease-in;}
+    nav ul{float: left;margin-right: 0px;width: 100%;margin: 3em 0 0;transition: 1s;
+        animation: bottom .4s ease-in;}
         
     nav ul li{ background-color:#ffffff ;}
     nav ul li, nav ul ul li{display: block;width: 100%;}
     nav ul li a{color: #b7202e;}
    
-    nav ul ul{top: 70px;position: static;float: none;opacity: 1;visibility: visible;}
-    nav ul ul a{padding-left: 40px ;}
+    nav ul ul{top: 70px;position: static;float: none;opacity: 1;visibility: visible;
+        background-color: transparent;padding: .5em;}
+    nav ul ul li a{padding-left: 40px;color: #b7202e;}
+
+    .active{border:none } 
+
 
 @keyframes bottom {
     0%{transform: translateY(0);}
@@ -156,7 +161,6 @@ footer p a{color:#b7202e; text-decoration: none;}
     [id^=btn]:checked + ul{display: block;}
     .box-header img{display: none;}
 
-    .menu ul{flex-direction: column;}
 
     .p1{background-position: left;height: auto;}
     .p1-box, .breve-box{width: 90%;}
