@@ -131,7 +131,7 @@ footer p a{color:#b7202e; text-decoration: none;}
 @media screen and (max-width:900px){
    header{display: flex;}
    
-    header img{width: 20%;position: static;z-index: 0;margin: .5em 0 0 ;}
+    header img{width: 40%;position: static;z-index: 0;margin: .5em 0 0 ;}
 
     nav ul{float: left;margin-right: 0px;width: 100%;margin: 3em 0 0;transition: 1s;
         animation: bottom .4s ease-in;}
