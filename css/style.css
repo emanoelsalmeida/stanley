@@ -8,7 +8,7 @@ h3{font-size:clamp( 1rem, 2.5vw +1em , 2.5vh);}
 h4{font-size:clamp( 1rem, 2vw + 1em, 3vh)}
 p{font-size: clamp( .8rem, 2vw + 1em, 2.8vh);}
 
-header img{width: 12%;position: fixed;top: 0;left: 0;z-index: 100000000;}
+header img{width: 12%;position: fixed;top: 0;left: 0;z-index: 100000000;margin: .5em;}
 
 header, nav{z-index: 10000;position: fixed;width: 100%;}
 
@@ -29,7 +29,7 @@ nav.black ul li a{color:#fff;}
 
 .p1, .flex{display: flex;justify-content: center;align-items: center;}
 
-.p1{background: url(/image/perfil-8.png);background-size:cover;background-position:center right;
+.p1{background: url(/image/Capa\ behance\ \(1\).png);background-size:cover;background-position:center top;
     min-height:100vh;}
 .p1-box{flex-direction: column;color: #fff;width: 70%;}
 .p1-item{margin: 1em;text-align: center;}
@@ -47,19 +47,20 @@ nav.black ul li a{color:#fff;}
 .p1-box a:hover{background-color:#b7202e;transition: .4s;}    
 
 
-.p2-box{background: #0b1529;padding: 2em 1em;text-align: center;color: #fff;min-height: 50vh;
+.p2-box{background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(/image/Untitled-1.png);background-size:cover;background-position:center;padding: 2em 1em;text-align: center;color: #fff;min-height: 50vh;
     display: flex;justify-content: center;align-items: center;flex-direction: column;}
 .p2-box h1{color: #fff;font-size: clamp( 2rem, 4vw, 4vh);}
 .p2-box a{color: #fff;}
 .p2-box a:hover{text-decoration-color:#b7202e;}
 
-.p3, .p4, footer{background: #0b1529;}
-.p3-box{display: flex;justify-content: center;align-items: center;padding: 2em 1em;
-    background: #0b1529;color: #fff;}
+.p3, .p4, .p13{background:url(/image/dee.png);background-size:cover;background-position:center; padding: 2em 0;}
+ footer{background: #0b1529;}
+
+.p3-box{display: flex;justify-content: center;align-items: center;padding: 2em 1em;color: #fff;}
 .p3 h1{font-size: clamp( 2rem, 3vw, 3vh);font-weight: 700;display: block;margin: 0 auto; 
     line-height: 1.1em;text-align: center;color: #fff;}
 .p3 h1 b{font-weight: 100;text-decoration: underline;text-decoration-color:#b7202e;}    
-.p3-item img{width: 100%;}
+.p3-item img{width: 100%;border-radius: 50%;border: .2em solid #b7202e;}
 .p3-item p{margin: 1em;}
 
 .p4{display: flex;justify-content: center;align-items: center;padding: 2em;}
@@ -77,7 +78,7 @@ nav.black ul li a{color:#fff;}
     border-radius: 3em;transition: .4s;border: .1em dotted #b7202e ;background-color: #b7202e;}
 
 
-.p13{padding: 2em 0;background: #0b1529;}
+.p13{padding: 2em 0;}
 .p13 h1 {padding: 0;text-align: center;color: #fff;text-decoration: underline;
     text-decoration-color:#b7202e ;}
 .p13-accordion{display: flex;justify-content: center;align-items: center;padding: 2em;}
@@ -95,21 +96,31 @@ nav.black ul li a{color:#fff;}
     font-size: clamp(.8rem, 1.2vw, 1.2vh);margin: 0em 0;}
 .accordion .contentBx.active .content{height: 150px;padding: 1em;}
 
-.p5-box{background-color: #022340;padding: 2em 1em;}
+.p5-box{background-color:#010626;padding: 2em 1em;}
 .p5-box{display: grid;justify-content: space-around;align-items: center;grid-template-columns: repeat(3, 30%);}
 .p5-item img{width: 50%;height: auto;}
 .p5-item p{color: #fff;font-weight: 700;}
 .p5-img img{width: 10%;height: auto;margin: 1em;}
 
-.breve{background:url(/image/perfil-9.png);min-height: 100vh;flex-direction: column;
-    background-size:cover;background-position:center;padding: 2em 0;}
+.breve{background:url(/image/Capa\ behance\ \(2\).png);min-height: 100vh;flex-direction: column;
+    background-size:cover;background-position:center top;padding: 3em 0 2em;}
     .breve p{color: #fff;margin: 0 0 1em;width: 70%;text-align: center;}
-.breve-box{width: 50%;background-color: #fff;padding: 1em;}
-.breve-box h2{color: #b7202e;}   
+.breve-box{width: 50%;background-color: transparent;padding: 1em;}
+.breve-box h2{color: #b7202e;text-align: center;}   
 .breve h1{color: #fff;margin: 0 0 1em;width: 70%;text-align: center;}
 .breve-box #mc-embedded-subscribe{background-color: #b7202e;text-align: center;font-size: .8rem;}
 .breve-box .clear{clear: none;}
 #mc_embed_signup{padding: 1em;}
+#mc_embed_signup .mc-field-group label {
+    color: #fff;
+}
+#mc_embed_signup .mc-field-group input {
+    background: transparent;
+    border:.2em solid #fff;
+}
+.indicates-required {
+    color: #fff;
+}
 
 
 footer p{font-size: .7rem;padding: 1vh 0;margin: 0 3vw;color: #fff}
