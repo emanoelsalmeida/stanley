@@ -47,8 +47,9 @@ nav.black ul li a{color:#fff;}
 .p1-box a:hover{background-color:#b7202e;transition: .4s;}    
 
 
-.p2-box{background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(/image/Untitled-1.png);background-size:cover;background-position:center;padding: 2em 1em;text-align: center;color: #fff;min-height: 50vh;
-    display: flex;justify-content: center;align-items: center;flex-direction: column;}
+.p2{background: url(/image/bsdb.png);background-size:cover;background-position:center;}
+.p2-box{padding: 2em 1em;text-align: center;color: #fff;
+    min-height: 50vh;display: flex;justify-content: center;align-items: center;flex-direction: column;opacity: 1;}
 .p2-box h1{color: #fff;font-size: clamp( 2rem, 4vw, 4vh);}
 .p2-box a{color: #fff;}
 .p2-box a:hover{text-decoration-color:#b7202e;}
@@ -56,11 +57,13 @@ nav.black ul li a{color:#fff;}
 .p3, .p4, .p13{background:url(/image/dee.png);background-size:cover;background-position:center; padding: 2em 0;}
  footer{background: #0b1529;}
 
-.p3-box{display: flex;justify-content: center;align-items: center;padding: 2em 1em;color: #fff;}
+.p3-box{display: flex;justify-content: center;align-items: center;padding: 2em 1em;color: #fff;
+    flex-direction: column;}
+    .p3-item{text-align: center;}
 .p3 h1{font-size: clamp( 2rem, 3vw, 3vh);font-weight: 700;display: block;margin: 0 auto; 
     line-height: 1.1em;text-align: center;color: #fff;}
 .p3 h1 b{font-weight: 100;text-decoration: underline;text-decoration-color:#b7202e;}    
-.p3-item img{width: 100%;border-radius: 50%;border: .2em solid #b7202e;}
+.p3-item img{width: 30%;border-radius: 50%;border: .2em solid #fff;}
 .p3-item p{margin: 1em;}
 
 .p4{display: flex;justify-content: center;align-items: center;padding: 2em;}
@@ -158,6 +161,8 @@ footer p a{color:#b7202e; text-decoration: none;}
 
     .p3-box, .f-i{flex-direction: column;}
 
+    .p3-item img{width: 50%;}
+
     .p4,  .p13-accordion{padding: 0;}
     .p4-box{width: 90%;}
     .p4 a{font-size: .8rem;}
@@ -165,8 +170,10 @@ footer p a{color:#b7202e; text-decoration: none;}
     .accordion .contentBx{position: relative;margin: .5em 0em;}
 
     .p5-box{grid-template-columns: 90%;}
-    .p5-item{margin: 1em 0;}
-    .p5-item img{width: 80%;}
+    .p5-item{margin: 1em 0;text-align: center;}
+    .p5-item img{width: 50%;}
+    .p5-img img{width: 10%;}
+
     .breve-box{width: 90%;}
 .breve h1, .breve p{width: 90%;}
 
