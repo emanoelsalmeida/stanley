@@ -103,9 +103,9 @@ nav.black ul li a{color:#fff;}
 .p5-img img{width: 10%;height: auto;margin: 1em;}
 
 .breve{background:url(/image/Capa\ behance\ \(2\).png);min-height: 100vh;flex-direction: column;
-    background-size:cover;background-position:center top;padding: 3em 0 2em;}
+    background-size:cover;background-position:center top;padding: 3em 0 2em;place-items: center;}
     .breve p{color: #fff;margin: 0 0 1em;width: 70%;text-align: center;}
-.breve-box{width: 50%;background-color: transparent;padding: 1em;}
+.breve-box{width: 50%;background-color: transparent;}
 .breve-box h2{color: #b7202e;text-align: center;}   
 .breve h1{color: #fff;margin: 0 0 1em;width: 70%;text-align: center;}
 .breve-box #mc-embedded-subscribe{background-color: #b7202e;text-align: center;font-size: .8rem;}
