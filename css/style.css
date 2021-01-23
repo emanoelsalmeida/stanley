@@ -172,7 +172,7 @@ footer p a{color:#b7202e; text-decoration: none;}
 
     .accordion .contentBx{position: relative;margin: .5em 0em;}
 
-    .p5-box{grid-template-columns: 90%;}
+    .p5-box{flex-direction: column;}
     .p5-item{margin: 1em 0;text-align: center;}
     .p5-item img{width: 50%;}
     .p5-img img{width: 10%;}
