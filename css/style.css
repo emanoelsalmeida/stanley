@@ -176,7 +176,7 @@ footer p a{color:#b7202e; text-decoration: none;}
     .p5{padding: 2em 0;width: 100%;}
     .p5-box{display:flex;justify-content: center;grid-template-columns: 100%;align-items: center;
         flex-direction: column;}
-    .p5-item{margin: 1em 0;}
+    .p5-item{margin: 1em 0;width: 90%;}
     .p5-item:nth-child(3){width: 70%;}
     .p5-item img{width: 50%;margin: 1em 0 0;}
     .p5-item a {text-align: center;text-decoration: none;}
