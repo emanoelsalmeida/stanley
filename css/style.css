@@ -99,17 +99,14 @@ nav.black ul li a{color:#fff;}
     font-size: clamp(.8rem, 1.2vw, 1.2vh);margin: 0em 0;}
 .accordion .contentBx.active .content{height: 150px;padding: 1em;}
 
-.p5-box{background-color:#040717;padding: 2em 1em;display: flex;justify-content: center;align-items: center;}
-.p5-box{display: flex;justify-content:space-around;align-items: center;}
-
-.p5-item img{width: 60%;}
-
+.p5-box{background-color:#040717;padding: 2em 1em;display: flex;
+    justify-content: center;align-items: center;}
+.p5-box{display: grid;justify-content: space-around;align-items: center;grid-template-columns: repeat(3,30%);}
+.p5-item{text-align: center;}
+.p5-item img{width: 40%;}
 .p5-item p{color: #fff;font-weight: 700;}
-.p5-item{width: 32%;;}
+.p5-img a img{width: 10%;height: auto;margin: .2em;}
 
-.p5-img{display: flex;margin-left:-2em;}
-.p5-img{width: 20%;}
-.p5-img a img{width: 100%;height: auto;}
 
 
 
