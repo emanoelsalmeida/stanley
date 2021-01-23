@@ -105,7 +105,9 @@ nav.black ul li a{color:#fff;}
 .p5-item{display: flex;align-items: center;flex-direction: column;justify-content: center;}
 .p5-item:nth-child(3){flex-direction: row;}
 .p5-item img{width: 70%;}
-.p5-item a img{width: 70%;padding: .1em;}
+.p5-i a img{width: 70%;padding: .1em;}
+
+
 .logo-left{margin-left: -3em;}
 
 .p5-item p{color: #fff;font-weight: 700;text-align: center;}
