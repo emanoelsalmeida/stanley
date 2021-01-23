@@ -99,17 +99,17 @@ nav.black ul li a{color:#fff;}
     font-size: clamp(.8rem, 1.2vw, 1.2vh);margin: 0em 0;}
 .accordion .contentBx.active .content{height: 150px;padding: 1em;}
 
-.p5-box{background-color:#040717;padding: 2em 1em;display: flex;
+.p5{background-color:#040717;padding: 2em 1em;display: flex;
     justify-content: center;align-items: center;}
-.p5-box{display: grid;justify-content: space-around;align-items: center;grid-template-columns: repeat(3,30%);}
-.logo-left{margin-left:2em ;}
-.p5-item{text-align: center;}
-.p5-item img{width: 50%;}
+.p5-box{display: grid;justify-content: space-between;align-items: center;grid-template-columns: 20% 20% 17%;}
+.p5-item{display: flex;align-items: center;flex-direction: column;justify-content: center;}
+.p5-item:nth-child(3){flex-direction: row;}
+.p5-item img{width: 70%;}
+.p5-item a img{width: 70%;padding: .1em;}
+
+
+.p5-img a img{width:6%;height: auto;margin: 0 .2em;}
 .p5-item p{color: #fff;font-weight: 700;text-align: center;}
-.p5-img a img{width:6%;height: auto;margin: .2em;text-align: right;}
-
-
-
 
 .breve{background:url(/image/Capa\ behance\ \(2\).png);min-height: 100vh;flex-direction: column;
     background-size:cover;background-position:center top;padding: 3em 0 2em;place-items: center;}
@@ -175,11 +175,25 @@ footer p a{color:#b7202e; text-decoration: none;}
 
     .accordion .contentBx{position: relative;margin: .5em 0em;}
 
-    .p5-box{flex-direction: column;justify-content: center;}
-    .p5-item{margin: 1em 0;text-align: center;width: 90%;}
-    .p5-item img{width: 50%;}
-    .p5-item:nth-child(1) img{margin-left: 0em;}
-    .p5-img img{width: 40%;}
+    .p5{padding: 2em 0;width: 100%;}
+    .p5-box{display:flex;justify-content: center;grid-template-columns: 100%;align-items: center;
+        flex-direction: column;}
+    .p5-item{margin: 1em 0;}
+    .p5-item:nth-child(3){width: 80%;}
+    .p5-item img{width: 40%;margin: 1em 0 0;}
+    .p5-item a {text-align: center;text-decoration: none;}
+    .p5-item a img{width: 50%;}
+
+
+   
+   
+   
+   
+   
+    .p5-img{display: block;margin: 0 auto;}
+    .p5-img a{text-decoration: none;}
+    .p5-img a img{width: 6%;margin: 1em .5em;}
+    .logo-left{margin-left: 0;}
 
     .breve-box{width: 90%;}
     .breve h1, .breve p{width: 90%;}
