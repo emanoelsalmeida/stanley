@@ -107,8 +107,6 @@ nav.black ul li a{color:#fff;}
 .p5-item img{width: 70%;}
 .p5-i a img{width: 70%;}
 
-
-
 .p5-item p{color: #fff;font-weight: 700;text-align: center;}
 
 .breve{background:url(/image/Capa\ behance\ \(2\).png);min-height: 100vh;flex-direction: column;
@@ -182,7 +180,7 @@ footer p a{color:#b7202e; text-decoration: none;}
     .p5-item:nth-child(3){width: 70%;}
     .p5-item img{width: 50%;margin: 1em 0 0;}
     .p5-item a {text-align: center;text-decoration: none;}
-    .p5-item a img{width: 60%;padding: 0;}
+    .p5-i a img{width: 70%;}
   
     .logo-left{margin-left: 0;}
 
