@@ -105,7 +105,7 @@ nav.black ul li a{color:#fff;}
 .p5-item{width: 30%;}
 .p5-item:nth-child(3){display: flex;justify-content: center;width: 17%;}
 .p5-item img{width: 70%;}
-.p5-i a img{width: 10%;height: auto;}
+.p5-i a img{width: 10%;height: auto;padding: .1em;}
 .p5-i:nth-child(1) a img{width: 70%;}
 .p5-i:nth-child(2) a img{width: 70%;}
 .p5-i:nth-child(3) a img{width: 70%;}
