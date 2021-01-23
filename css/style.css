@@ -102,13 +102,12 @@ nav.black ul li a{color:#fff;}
 .p5{background-color:#040717;padding: 2em 1em;display: flex;
     justify-content: center;align-items: center;}
 .p5-box{display: grid;justify-content: space-between;align-items: center;grid-template-columns: 20% 25% 17%;}
-.p5-item{display: flex;align-items: center;flex-direction: column;justify-content: center;width: 100%;}
-.p5-item:nth-child(3){flex-direction: row;}
+
+.p5-item:nth-child(3){display: flex;justify-content: center;}
 .p5-item img{width: 70%;}
 .p5-i a img{width: 70%;}
 
 
-.logo-left{margin-left: -3em;}
 
 .p5-item p{color: #fff;font-weight: 700;text-align: center;}
 
