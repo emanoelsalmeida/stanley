@@ -106,7 +106,7 @@ nav.black ul li a{color:#fff;}
 .p5-item p{color: #fff;font-weight: 700;}
 .p5-item{width: 25%;text-align: center;}
 .p5-img{display: flex;align-items: center;justify-self: center;}
-.p5-img img{width: 40%;height: auto;margin:  0em;}
+.p5-img img{width: 30%;height: auto;margin:  0em;}
 
 .breve{background:url(/image/Capa\ behance\ \(2\).png);min-height: 100vh;flex-direction: column;
     background-size:cover;background-position:center top;padding: 3em 0 2em;place-items: center;}
