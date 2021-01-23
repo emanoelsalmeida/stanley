@@ -101,7 +101,7 @@ nav.black ul li a{color:#fff;}
 
 .p5{background-color:#040717;padding: 2em 1em;display: flex;
     justify-content: center;align-items: center;}
-.p5-box{display: flex;grid-template-columns: 20% 25% 17%;justify-content: center;align-items: center;}
+.p5-box{display: flex;justify-content: center;align-items: center;}
 .p5-item{width: 30%;}
 .p5-item:nth-child(3){display: flex;justify-content: center;}
 .p5-item img{width: 70%;}
