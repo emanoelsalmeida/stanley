@@ -104,8 +104,8 @@ nav.black ul li a{color:#fff;}
 .p5-item img{width: 70%;height: auto;}
 .p5-item:nth-child(1) img{margin-left: -3em;}
 .p5-item p{color: #fff;font-weight: 700;}
-.p5-item{width: 25%;text-align: center;}
-.p5-img{display: flex;}
+.p5-item{width: 30%;text-align: center;}
+.p5-img{display: flex;align-items: center;justify-self: center;}
 .p5-img img{width: 40%;height: auto;margin:  0em;}
 
 .breve{background:url(/image/Capa\ behance\ \(2\).png);min-height: 100vh;flex-direction: column;
@@ -172,13 +172,14 @@ footer p a{color:#b7202e; text-decoration: none;}
 
     .accordion .contentBx{position: relative;margin: .5em 0em;}
 
-    .p5-box{flex-direction: column;}
-    .p5-item{margin: 1em 0;text-align: center;}
+    .p5-box{flex-direction: column;justify-content: center;}
+    .p5-item{margin: 1em 0;text-align: center;width: 90%;}
     .p5-item img{width: 50%;}
-    .p5-img img{width: 10%;}
+    .p5-item:nth-child(1) img{margin-left: 0em;}
+    .p5-img img{width: 40%;}
 
     .breve-box{width: 90%;}
-.breve h1, .breve p{width: 90%;}
+    .breve h1, .breve p{width: 90%;}
 
     .whatsapp a img{position: fixed;width: 8vw;height: auto;left: 10vw;}
 }
